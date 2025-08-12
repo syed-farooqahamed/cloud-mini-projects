@@ -1,0 +1,39 @@
+==== System Info Report ====
+Tue Aug 12 17:22:53 UTC 2025
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  139G   99G  59% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.8G  954G   1% /
+none            1.9G  100K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  504K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  139G   99G  59% /mnt/c
+tmpfs           1.9G   16K  1.9G   1% /run/user/1000
+
+==== Memory Usage ====
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       593Mi       2.9Gi       3.6Mi       221Mi       3.1Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+==== Top 5 Processes by CPU Usage ====
+    PID COMMAND         %CPU %MEM
+    481 node             1.3  3.6
+    505 node             0.2  2.0
+    428 node             0.2  2.8
+  10332 node             0.1  1.4
+  10341 node             0.0  1.4
+
+==== Recent 'error' Messages from System Logs ====
+2025-08-10T15:16:07.128116+00:00 SYED-FAROOQ systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-08-10T15:16:07.128119+00:00 SYED-FAROOQ systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-08-10T15:16:07.128292+00:00 SYED-FAROOQ kernel: RAS: Correctable Errors collector initialized.
+2025-08-10T15:16:07.129937+00:00 SYED-FAROOQ kernel: WSL (189) ERROR: CheckConnection: getaddrinfo() failed: -5
+2025-08-10T15:16:07.375600+00:00 SYED-FAROOQ snapd[181]: helpers.go:159: error trying to compare the snap system key: system-key missing on disk
+
+==== Sending report to your email... ====
